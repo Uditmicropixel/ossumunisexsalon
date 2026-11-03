@@ -63,7 +63,7 @@ export function Header() {
         </nav>
         <div className="flex items-center gap-3">
           <Button asChild variant={overHero ? "champagne" : "luxe"} size="lg" className="hidden sm:inline-flex">
-            <Link to="/book">Book Appointment</Link>
+            <Link to="/book">Book Appointment Udit</Link>
           </Button>
           <button
             className={cn("p-2 lg:hidden", overHero ? "text-ivory" : "text-foreground")}
